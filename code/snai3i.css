@@ -516,7 +516,7 @@ transform: scale(1);
 }
 
 .form-form .input-field {
-    width: 100%;
+    width: 90%;
 }
 
 .input-field {
@@ -771,3 +771,4 @@ transform: scale(1);
     box-sizing: border-box !important;
   }
 }
+
