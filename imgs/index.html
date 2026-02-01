@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../code/snai3i.css" />
+    <title>Request to open an account</title>
+</head>
+
+<body id="bdd">
+    <div id="img-create">
+        <img src="https://www.snai3i.org/assets/logo-M8ZZgvtS.svg" alt="Snai3i Logo" width="300" />
+    </div>
+
+    <div class="signup">
+        <div class="signup-card">
+
+            <h2 class="signup-title">Create Account</h2>
+
+            <form class="signup-form">
+                <div class="form-form">
+                    <input type="text" class="input-field" placeholder="First Name" required  data-username>
+                    <input type="text" class="input-field" placeholder="Last Name" required>
+                </div>
+
+                <input type="email" class="input-field" placeholder="Email" required>
+                <input type="password" class="input-field" placeholder="Password" required id="ps">
+                <div class="remembeer">
+                    <p>Show password</p>
+                    <input type="checkbox" onclick="psclick()" >
+                </div>
+
+                <button type="button" class="btn-confirm" onclick="confirmRequest()"><a href="../code/snai3i-shop.html">Confirm</a></button>
+            </form>
+
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p class="end-01">Copyright © 2026 Snai3i_app. All rights reserved.</p>
+        <p class="end-02">Version 1.0</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="snai3i.js"></script>
+
+</body>
+</html>

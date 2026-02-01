@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shop</title>
+  <link rel="stylesheet" href="snai3i.css">
+</head>
+<body class="boni">
+
+  <div class="menu">
+    <div class="snai3i-logo">
+      <a href="../index.html"><img src="https://www.snai3i.org/assets/logo-M8ZZgvtS.svg" alt="logo"></a>
+    </div>
+
+    <div class="gapp-menu">
+      <ul class="menu-s">
+        <li><a href="#" class="menu-s-home-snai3i">Home</a></li>
+        <li><a href="#prodact-shop-snai3ii" class="menu-s-home-snai3i">Market</a></li>
+        <li><a href="#Earncoins" class="menu-s-home-snai3i">Earn coins</a></li>
+        <li><a href="#" class="menu-s-home-snai3i" onclick="showName()">Profile</a></li>
+      </ul>
+
+      <div class="scor-menu">
+        <p class="p-menu">Your coins:</p>
+        <div class="score-cins-div">
+          <h2 class="score-cins-score" id="coin">20</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <h1>Marcket</h1>
+  <div id="prodact-shop-snai3ii">
+
+    <div class="prodact">
+      <h3 class="name">Smart watch W26 pro</h3>
+      <img src="../imgs/watch-prodact-1.png" alt="Smart watch" class="img-prodats">
+      <p class="discription">Design with integrated Bluetooth earbuds for calls/music.</p>
+      <p class="prix">8 coins</p>
+      <button class="buy" data-price="8">Buy</button>
+    </div>
+
+    <div class="prodact">
+      <h3 class="name">Mouse</h3>
+      <img src="../imgs/mouse-prodact.png" alt="Mouse" width="60%" height="200px" class="img-prodats">
+      <p class="discription">High-quality mouse with smooth tracking and fast response.</p>
+      <p class="prix">5 coins</p>
+      <button class="buy" data-price="5">Buy</button>
+    </div>
+
+    <div class="prodact">
+      <h3 class="name">Keyboard</h3>
+      <img src="../imgs/keyboard-prodact-3.png" alt="Keyboard" class="img-prodatss">
+      <p class="discription">Durable keyboard with comfortable, responsive keys.</p>
+      <p class="prix">6 coins</p>
+      <button class="buy" data-price="6">Buy</button>
+    </div>
+
+    <div class="prodact">
+      <h3 class="name">3D Pen</h3>
+      <img src="../imgs/3d-pn-prodact-4.png" alt="3D Pen" class="img-prodatsss">
+      <p class="discription">3D pen that lets you draw and create 3D models easily.</p>
+      <p class="prix">9 coins</p>
+      <button class="buy" data-price="9">Buy</button>
+    </div>
+
+    <div class="prodact">
+      <h3 class="name">Power Bank</h3>
+      <img src="../imgs/powr-banck-prodact.png" alt="Power Bank" class="img-prodatts">
+      <p class="discription">Kakusiga power bank with 10000mAh capacity for fast and safe charging.</p>
+      <p class="prix">6 coins</p>
+      <button class="buy" data-price="6">Buy</button>
+    </div>
+
+    <div class="prodact">
+      <h3 class="name">Mouse Pad</h3>
+      <img src="../imgs/mous-pad-prodact-6.png" alt="Mouse Pad" class="img-prodats">
+      <p class="discription">Mouse pad with smooth surface for precise and smooth movement.</p>
+      <p class="prix">5 coins</p>
+      <button class="buy" data-price="5">Buy</button>
+    </div>
+    
+    <div class="prodact">
+      <h3 class="name">Mouse Wireless</h3>
+      <img src="../imgs/mouse-wireless.png" alt="Mouse Wireless" class="img-prodats">
+      <p class="discription">ACPSYS wireless mouse with a comfortable design and fast response.</p>
+      <p class="prix">5 coins</p>
+      <button class="buy" data-price="5">Buy</button>
+    </div>
+
+    <div class="prodact">
+      <h3 class="name">product DU-B210 extra bass</h3>
+      <img src="../imgs/product-DU-B210.png" alt="DU-B210" class="img-prodats">
+      <p class="discription">DU-B210 headphones with powerful sound and extra bass.</p>
+      <p class="prix">5 coins</p>
+      <button class="buy" data-price="5">Buy</button>
+    </div>
+
+    <div class="prodact">
+      <h3 class="name">Lumo sport car</h3>
+      <img src="../imgs/sportcar.png" alt="Lumo sport car" class="img-prodaats">
+      <p class="discription">Lumo sport car with a stylish design and attractive lights.</p>
+      <p class="prix">5 coins</p>
+      <button class="buy" data-price="5">Buy</button>
+    </div>
+    
+  </div>
+
+
+    <div id="Earncoins">
+        <div class="icon-h">
+          <h1 id="typing-title"></h1>
+          <img src="../imgs/wallet-earn-coins.png" alt="">
+          </div>
+          <div class="earnssss">
+          
+            <div class="ear">
+              <div class="ear-s">
+                <div class="text-ear">
+                  <h2>Kodular app</h2>
+                  <p>0.5 coin</p>
+                </div>
+                <img src="../imgs/icon-coin.png" alt="coin">
+              </div>
+          
+              <div class="up-btn">
+                <label class="upload-btn">
+                  📁 Upload
+                  <input type="file" hidden class="file">
+                </label>
+                <button class="btn-earn" data-price="0.5">Take</button>
+              </div>
+            </div>
+          
+            <div class="ear">
+              <div class="ear-s">
+                <div class="text-ear">
+                  <h2>Python project</h2>
+                  <p>0.8 coin</p>
+                </div>
+                <img src="../imgs/icon-coin.png" alt="coin">
+              </div>
+          
+              <div class="up-btn">
+                <label class="upload-btn">
+                  📁 Upload
+                  <input type="file" hidden class="file">
+                </label>
+                <button class="btn-earn" data-price="0.8">Take</button>
+              </div>
+            </div>
+          
+            <div class="ear">
+              <div class="ear-s">
+                <div class="text-ear">
+                  <h2>Web site</h2>
+                  <p>1 coin</p>
+                </div>
+                <img src="../imgs/icon-coin.png" alt="coin">
+              </div>
+          
+              <div class="up-btn">
+                <label class="upload-btn">
+                  📁 Upload
+                  <input type="file" hidden class="file">
+                </label>
+                <button class="btn-earn" data-price="1">Take</button>
+              </div>
+            </div>
+          
+            <div class="ear">
+              <div class="ear-s">
+                <div class="text-ear">
+                  <h2>Pro Web site</h2>
+                  <p>2 coins</p>
+                </div>
+                <img src="../imgs/icon-coin.png" alt="coin">
+              </div>
+          
+              <div class="up-btn">
+                <label class="upload-btn">
+                  📁 Upload
+                  <input type="file" hidden class="file">
+                </label>
+                <button class="btn-earn" data-price="2">Take</button>
+              </div>
+            </div>
+          
+            <div class="ear">
+              <div class="ear-s">
+                <div class="text-ear">
+                  <h2>3D project</h2>
+                  <p>0.7 coin</p>
+                </div>
+                <img src="../imgs/icon-coin.png" alt="coin">
+              </div>
+          
+              <div class="up-btn">
+                <label class="upload-btn">
+                  📁 Upload
+                  <input type="file" hidden class="file">
+                </label>
+                <button class="btn-earn" data-price="0.7">Take</button>
+              </div>
+            </div>
+          
+            <div class="ear">
+              <div class="ear-s">
+                <div class="text-ear">
+                  <h2>Pro 3D project</h2>
+                  <p>1.5 coin</p>
+                </div>
+                <img src="../imgs/icon-coin.png" alt="coin">
+              </div>
+
+    <div class="up-btn">
+      <label class="upload-btn">
+        📁 Upload
+        <input type="file" hidden class="file">
+      </label>
+      <button class="btn-earn" data-price="1.5">Take</button>
+    </div>
+  </div>
+
+</div>
+    
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="snai3i.js"></script>
+</body>
+</html>
